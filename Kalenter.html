@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuokraa Vesiskootteri</title>
+    <!-- FullCalendar CSS and JavaScript links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+    <!-- Your CSS link -->
+    <style>
+        /* Add your custom styles here */
+        #bookingCalendar {
+            background-color: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bookingCalendar"></div>
+
+    <!-- FullCalendar initialization script -->
+    <script>
+        $(document).ready(function () {
+            $('#bookingCalendar').fullCalendar({
+                // Add your calendar options and events here
+            });
+        });
+    </script>
+</body>
+
+</html>
